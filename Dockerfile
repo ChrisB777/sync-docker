@@ -12,8 +12,8 @@ RUN tar -xf /tmp/sync.tgz -C /usr/sbin btsync && rm -f /tmp/sync.tgz
 COPY btsync.conf /etc/
 COPY run_sync /opt/
 
-EXPOSE 8888
-EXPOSE 55555
+EXPOSE 12888
+EXPOSE 55512
 
 VOLUME /mnt/sync
 
